@@ -14,6 +14,15 @@ and open the template in the editor.
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <link href="css/reset.css" rel="stylesheet" type="text/css"/>
         <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130177783-1"></script>
+            <script>
+                 window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                       gtag('js', new Date());
+                       gtag('config', 'UA-130177783-1');
+            </script>
+    
     </head>
     <body>
         <div class="page">
@@ -53,42 +62,48 @@ and open the template in the editor.
                                     <img src="img/pexels-photo-786859.jpeg" alt="various plants on a coffee table with cactus pillow" style="width:100%"/>
                                     <div class="FIcontainer">
                                         <p class="boxtext">The November 2018 Box</p>
-                                        <p>Purchase individually for</p><p class="boxprice">$50.00</p>
+                                        <p>Subscriber special: </p><p class="boxprice">$29.99</p>
+                                        <p>Or purchase individually for</p><p class="boxprice">$49.99</p>
                                     </div>
                                 </div>
                                 <div class="fadeImg">
                                     <img src="img/elora-allen-788104-unsplash.jpg" alt="various plants on a coffee table with cactus pillow" style="width:100%"/>
                                     <div class="FIcontainer">
                                         <p class="boxtext">The October 2018 Box</p>
-                                        <p>Purchase individually for</p><p class="boxprice">$50.00</p>
+                                        <p>Subscriber special: </p><p class="boxprice">$29.99</p>
+                                        <p>Or purchase individually for</p><p class="boxprice">$49.99</p>
                                     </div>
                                 </div>
                                 <div class="fadeImg">
                                     <img src="img/pexels-photo-1005058.jpeg" alt="various plants on a coffee table with cactus pillow" style="width:100%"/>
                                     <div class="FIcontainer">
                                         <p class="boxtext">The September 2018 Box</p>
-                                        <p>Purchase individually for</p><p class="boxprice">$50.00</p>
+                                        <p>Subscriber special: </p><p class="boxprice">$29.99</p>
+                                        <p>Or purchase individually for</p><p class="boxprice">$49.99</p>
                                     </div>
                                 </div>
                                 <div class="fadeImg">
                                     <img src="img/pexels-photo-545048.jpeg" alt="various plants on a coffee table with cactus pillow" style="width:100%"/>
                                     <div class="FIcontainer">
                                         <p class="boxtext">The August 2018 Box</p>
-                                        <p>Purchase individually for</p><p class="boxprice">$50.00</p>
+                                        <p>Subscriber special: </p><p class="boxprice">$29.99</p>
+                                        <p>Or purchase individually for</p><p class="boxprice">$49.99</p>
                                     </div>
                                 </div>
                                 <div class="fadeImg">
                                     <img src="img/pexels-photo-169191.jpeg" alt="various plants on a coffee table with cactus pillow" style="width:100%"/>
                                     <div class="FIcontainer">
                                         <p class="boxtext">The July 2018 Box</p>
-                                        <p>Purchase individually for</p><p class="boxprice">$50.00</p>
+                                        <p>Subscriber special: </p><p class="boxprice">$29.99</p>
+                                        <p>Or purchase individually for</p><p class="boxprice">$49.99</p>
                                     </div>
                                 </div>
                                 <div class="fadeImg">
                                     <img src="img/coffee-cup-books-home.jpg" alt="various plants on a coffee table with cactus pillow" style="width:100%"/>
                                     <div class="FIcontainer">
                                         <p class="boxtext">The June 2018 Box</p>
-                                        <p>Purchase individually for</p><p class="boxprice">$50.00</p>
+                                        <p>Subscriber special: </p><p class="boxprice">$29.99</p>
+                                        <p>Or purchase individually for</p><p class="boxprice">$49.99</p>
                                     </div>
                                 </div>
                             </div>
