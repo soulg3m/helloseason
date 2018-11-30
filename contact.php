@@ -1,9 +1,5 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
+
 <html>
     <head>
         <meta charset="UTF-8">
@@ -14,6 +10,15 @@ and open the template in the editor.
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <link href="css/reset.css" rel="stylesheet" type="text/css"/>
         <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
+    
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130177783-1"></script>
+            <script>
+                 window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                       gtag('js', new Date());
+                       gtag('config', 'UA-130177783-1');
+            </script>
     </head>
     <body>
         <div class="page">
@@ -37,8 +42,34 @@ and open the template in the editor.
             </header>
             <main>
                 <div class="maincontainer">
-                    <div class="maincontent">
-                        Stuff goes here.
+                    <div class="maincontent_np_white">
+                        <div class="boxcontainer">
+                            <div class="onenested_box">
+                                <div class="onenested_box">
+                                    <h2>Contact Us!</h2><br>
+                                    <br>
+                                    <p>Please fill out the contact form below with any questions or concerns.</p>
+                                </div>
+                            </div>
+                            <hr>
+                            <br>
+                            <img src="img/icons8-secured-letter-50.png" alt="email envelope"/><br><br>
+                            <form>
+                                <label for="fname">First Name</label>
+                                <input type="text" id="fname" name="firstname" placeholder="Your name..">
+
+                                <label for="lname">Last Name</label>
+                                <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+
+                                <label for="email">Email</label>
+                                <input type="text" id="email" name="email" placeholder="Your email address..">
+
+                                <label for="subject">Subject</label>
+                                <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+                                <input type="submit" value="Submit">
+                            </form>
+                        </div>
                     </div>
                 </div>
             </main>
@@ -50,3 +81,4 @@ and open the template in the editor.
         </div>
     </body>
 </html>
+
