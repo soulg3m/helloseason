@@ -249,11 +249,11 @@ p {
 
 a {
     text-decoration: none;
-    color: #96E6B3;
+    color: #ff6978;
 }
 
 a:hover {
-    color: #ff6978;
+    color: #0D1321;
 }
 
 
@@ -609,7 +609,7 @@ input[type=text].trial, select.trial, textarea.trial {
     margin-top: 6px;
     margin-bottom: 16px;
     resize: vertical;
-    display: inline;
+    display: inline-block;
 }
 
 input[type=submit] {
@@ -653,13 +653,8 @@ form {
     width: 100%;
     height: auto;
     text-align: center;
-}
-
-.i1icons {
-    border: 13px solid #d3ede5;
-    border-radius: 40px;
-    background: #d3ede5;
-    margin-bottom: 10px;
+    padding: 10px;
+    margin: 5px;
 }
 
 
@@ -770,7 +765,7 @@ footer {
     
     form {
         width: 100%;
-        color: #026670;
+        color: #ff6978;
         font-family: 'oxygen', sans-serif;
         white-space: pre-line;
         box-sizing: border-box;
@@ -810,7 +805,7 @@ footer {
     
     form {
         width: 100%;
-        color: #026670;
+        color: #ff6978;
         font-family: 'oxygen', sans-serif;
         white-space: pre-line;
         box-sizing: border-box;
