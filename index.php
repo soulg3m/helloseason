@@ -13,6 +13,15 @@ Hello Season MVP
         <link href="css/style.css" rel="stylesheet" type="text/css"/>
         <link href="css/reset.css" rel="stylesheet" type="text/css"/>
         <link href="css/responsive.css" rel="stylesheet" type="text/css"/>
+        
+        <!-- Global site tag (gtag.js) - Google Analytics -->
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130177783-1"></script>
+            <script>
+                 window.dataLayer = window.dataLayer || [];
+                    function gtag(){dataLayer.push(arguments);}
+                       gtag('js', new Date());
+                       gtag('config', 'UA-130177783-1');
+            </script>
     </head>
     <body>
         <div class="page">
@@ -76,7 +85,11 @@ Hello Season MVP
                             </div>
                             <br>
                             <p class="diam">&diams;</p> <h4>What's in the box?</h4> <p class="diam">&diams;</p><br>
-                            <p class="lessimprtnt">We specially curate a collection of 8 items for you to decorate with every month so you can relax and enjoy each season.</p><br>
+                            <p class="mission">Tailoring to your needs, as well as your budget, we provide beautiful decorating options for every season right to your doorstep. </p><br>
+                            <p class="lessimprtnt">We specially curate a collection of 8 items for you to decorate with every month.</p><br>
+                            <!-- PRODUCT PICTURE BELOW-->
+                            <img src="img/coffee-cup-books-home.jpg" class="singleImg" alt="products included in our box" /><br>
+                            <br>
                             <div class="onenested_contact">
                                 <p>Have some questions? Don't hesitate to <a href="contact.php">contact us!</a></p>
                             </div>
@@ -85,7 +98,9 @@ Hello Season MVP
                     <div class="maincontent_np_green">
                         <div class="indexcontainer">
                             <p class="diam">&diams;</p> <h4>Test out a free Sample Box before you buy!</h4> <p class="diam">&diams;</p><br>
+                            <br>
                             <p>Sample 4 specially picked items from the most current subscription box at no cost.</p>
+                            <br>
                             <form>
                                 <input type="text" id="email" name="user_email" placeholder="Enter your email..">
                                 <input type="submit" class="trial" value="Get your FREE Sample Box!">
